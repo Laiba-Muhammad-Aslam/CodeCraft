@@ -124,3 +124,25 @@ section{
     -webkit-text-fill-color: transparent;
     font-size: 54px;
 }
+
+/* COUNTER SECTION  */
+.counter{
+    background-image: url("/images/cover_2.jpg");
+}
+
+/* REVIEW SECTION  */
+
+.review{
+}
+.review .person{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    padding-bottom: 18px;
+}
+.review .person img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
