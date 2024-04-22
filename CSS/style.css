@@ -40,6 +40,11 @@ section{
     color: #fff;
     transform: translateY(-5px);
 }
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    background: -webkit-linear-gradient(rgb(0, 224, 254), rgb(17, 7, 254));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 /* HERO SECTION  */
 .home{
     background-image: url(/images/cover_1.jpg);
@@ -57,7 +62,7 @@ section{
     height: 100%;
     width: 100%;
     z-index: -1;
-    background: linear-gradient(to left, rgba(0, 224, 254, 0.7), rgb(17, 7, 254, 0.7));
+    background: linear-gradient(to left, rgb(17, 7, 254, 0.7), rgba(0, 224, 254, 0.7));
 }
 .hero-section{
     min-height: 100vh;
@@ -96,4 +101,26 @@ section{
 }
 .service .service-img .icon i{
     font-size: 30px;
+}
+
+/* ABOUT SECTION  */
+.about{
+    background-image: url(/images/cover_3.jpg);
+}
+.video-btn{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to left, rgb(0, 224, 254), rgb(17, 7, 254));
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 100px;
+}
+/* FEATURE SECTION  */
+.feature i{
+    background: -webkit-linear-gradient(rgb(0, 224, 254), rgb(17, 7, 254));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
 }
