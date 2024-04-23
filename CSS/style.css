@@ -117,6 +117,10 @@ section{
     align-items: center;
     color: #fff;
     border-radius: 100px;
+    justify-content: center;
+}
+.video-btn i{
+    font-size: 32px;
 }
 /* FEATURE SECTION  */
 .feature i{
@@ -139,8 +143,6 @@ section{
 .review .person{
     display: flex;
     align-items: center;
-    /* border-bottom: 1px solid rgba(0,0,0,0.2); */
-    /* border-bottom: 2px solid rgba(0,0,0,0.2); */
     padding-bottom: 18px;
 }
 .review .person img{
@@ -173,4 +175,13 @@ form .form-control:focus{
     color: #fff;
     background: transparent;
     border-color: #fff;
+}
+/* FOOTER SECTION  */
+
+footer{
+    background: linear-gradient(to left, rgb(0, 224, 254), rgb(17, 7, 254));
+    color: #fff;
+}
+footer a {
+    color: #fff;
 }
