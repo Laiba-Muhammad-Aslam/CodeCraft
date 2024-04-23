@@ -14,6 +14,7 @@ a{
     text-decoration: none;
     transition: all 0.4s ease;
     font-weight: 800;
+    color: #20212c;
 }
 .navbar{
     box-shadow: 0 12px 20px rgba(0,0,0,0.1);
@@ -149,4 +150,27 @@ section{
 }
 .review .stars{
     color: orange;
+}
+
+/* CONTACT SECTION  */
+
+#contact{
+    background-image: url("/images/cover_3.jpg");
+}
+form .form-control{
+    border-radius: 0;
+    background: transparent;
+    color: #ffff;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+form input.form-control{
+    height: 54px;
+}
+form .form-control::placeholder{
+    color: #ffff;
+}
+form .form-control:focus{
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
 }
